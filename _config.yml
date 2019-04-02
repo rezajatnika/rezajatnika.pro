@@ -1,0 +1,28 @@
+# Site settings
+title: ~rezajatnika
+email: rezajatnika@gmail.com
+description: personal blog and portfolio
+baseurl:  # the subpath of your site, e.g. /blog/
+url: https://rezajatnika.pro
+twitter_username: rezajatnika
+github_username: rezajatnika
+
+# Build settings
+markdown: kramdown
+
+# Syntax highlighter
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+# Plugins
+plugins: [jekyll-paginate]
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
